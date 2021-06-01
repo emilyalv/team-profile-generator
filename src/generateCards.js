@@ -41,7 +41,7 @@ function generateCards(employees) {
                 ].getEmail()}">${employees[i].getEmail()}</a></li>
                 <li class="list-group-item">GitHub: <a href="https://github.com/${employees[
                   i
-                ].getGithub()}" target="_blank" rel="noopener noreferrer">${engineer.getGithub()}</a></li>
+                ].getGitHub()}" target="_blank" rel="noopener noreferrer">${employees[i].getGitHub()}</a></li>
             </ul>
         </div>
     </div>
